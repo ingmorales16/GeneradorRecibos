@@ -401,7 +401,7 @@ function imprimirRecibo(){
 
     printJS({
       printable: 'recibo',
-      type: 'html',
+      type: 'pdf',
       header: '',
       documentTitle: '',
       onPrintDialogClose: function() {
