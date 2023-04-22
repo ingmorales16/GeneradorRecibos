@@ -404,9 +404,9 @@ function imprimirRecibo(){
       type: 'html',
       //header: 'Encabezado de impresión',
       //documentTitle: 'Título del documento',
-      //onPrintDialogClose: function() {
+      onPrintDialogClose: function() {
         // código a ejecutar después de que se cierre el cuadro de diálogo de impresión
-      //}
+      }
     });
 
 
