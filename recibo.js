@@ -401,11 +401,11 @@ function imprimirRecibo(){
 
     printJS({
       printable: 'recibo',
-      type: 'pdf',
+      type: 'html',
       //css: 'https://www.example.com/my-styles.css',
       //selector: '#my-section',
-      header: '7',
-      documentTitle: '7',
+      header: '',
+      documentTitle: '',
       width: '8.5in',
       height: '11in',
       onPrintDialogClose: function() {
