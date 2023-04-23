@@ -423,6 +423,7 @@ function aumentarContador() {
     contador++;
     alert("El contador ha sido aumentado.");
     sumado ++;  
+    location.reload();
   }
 
 }
