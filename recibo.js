@@ -377,7 +377,7 @@ function generarRecibo() {
   }
 
 
-  document.getElementById('myButton').click();
+  document.getElementById('Button0').click();
 }
 
 
